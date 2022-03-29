@@ -1,13 +1,12 @@
 <html>
 <style>
 table, th, td {
-  border:1px solid black;
+  border:2px solid black;
 }
 </style>
 <body>
 
-<h2>Programmerings noter</h2>
-
+<h2>Arrays:</h2>
 <table>
 
   <tr>
@@ -15,22 +14,26 @@ table, th, td {
     <th>Koden</th>
     <th>Forklaring</th>
   </tr>
-  
-  <tr>
-    <td>Arrays</td>
+   <tr>
+    <td>Oprette nyt array</td>
     <td>String[] list = new String[10];</td>
-    <td>Man laver en liste med 11 rækker</td>
+    <td>Man laver Laver et String-array, med plads til 10 strings</td>
   </tr>
-  
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+   <tr>
+    <td>Indsæt element i array</td>
+    <td>list[1] = "test1";</td>
+    <td>Laver en string for den anden linje fra list array</td>
   </tr>  
-  
-  <tr>
-    <td></td>
-    <td></td>
+   <tr>
+    <td>Længde af array</td>
+    <td>list.length;</td>
+    <td>Returnere længden af arrayet list Dvs. 10</td>
+  </tr>     
+   <tr>
+    <td>Split af tekst i array</td>
+    <td>String h = "hej bagge"; </br> 
+        String[] ord = h.split(" ")</br>
+        println(ord[0]); </td>
     <td></td>
   </tr>  
 
